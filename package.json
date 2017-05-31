@@ -1,0 +1,59 @@
+{
+  "name": "ReactNativeStarter",
+  "version": "1.0.2",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "lint": "esw index.ios.js index.android.js src utils",
+    "lint:watch": "npm run lint -- --watch",
+    "test": "jest"
+  },
+  "dependencies": {
+    "axios": "^0.16.1",
+    "babel-jest": "^20.0.3",
+    "babel-preset-react-native": "^1.9.2",
+	"eslint": "^3.9.1",
+    "eslint-config-airbnb": "^13.0.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "2.2.3",
+    "eslint-plugin-react": "^6.6.0",
+    "eslint-plugin-react-native": "^2.0.0",
+    "eslint-watch": "2.1.14",
+    "jest": "^20.0.4",
+    "lodash": "^4.17.4",
+    "moment": "^2.18.1",
+    "react": "16.0.0-alpha.6",
+    "react-native": "0.44.0",
+    "react-native-navigation": "^1.1.84",
+    "react-native-vector-icons": "^4.2.0",
+    "react-redux": "^5.0.5",
+    "redux": "^3.6.0",
+    "redux-immutable-state-invariant": "^2.0.0",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.2.0"
+  },
+  "devDependencies": {
+	"babel-jest": "^20.0.3",
+	"babel-preset-react-native": "^1.9.2",
+	"jest": "^20.0.4",
+	"react-test-renderer": "^15.5.4"
+  },
+  "jest": {
+    "preset": "react-native"
+  },
+  "description": "React Native boilerplate",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CynderTech/react-native-starter.git"
+  },
+  "keywords": [
+    "react-native",
+    "boilerplate"
+  ],
+  "author": "June Domingo <june@cynder.io>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CynderTech/react-native-starter/issues"
+  },
+  "homepage": "https://github.com/CynderTech/react-native-starter#readme"
+}
